@@ -163,14 +163,14 @@ namespace Almacen_Presentacion
                     "Aviso del Sistema",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
-            }
+        }
             else 
             {
                 MessageBox.Show(Rpta,
                     "Aviso del Sistema",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
-            }
+    }
 
         }
 

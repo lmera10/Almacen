@@ -87,7 +87,7 @@ namespace Almacen_Presentacion
                                                         "stock_actual='" + oAr.Stock_actual+"'," +
                                                         "fecha_modifica='"+oAr.Fecha_modifica+"'" +
                                                         " where codigo_ar='"+oAr.Codigo_ar+"'";
-                }           
+                }
                 MySqlCommand Comando = new MySqlCommand(Sqltarea, SqlCon);
                 SqlCon.Open();
                 Rpta = Comando.ExecuteNonQuery() >= 1 ? "OK" : "No se pudo ingresar registro";
